@@ -1,0 +1,129 @@
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#menu{
+  margin:0;
+  padding:60;
+  width: 100%;
+  display: table;
+  table-layout: fixed; 
+  }
+  
+  li.button{
+    display: table-cell;
+    width: auto;
+    text-align: center;
+    background-color:#F24B6A;
+
+  }
+
+  a{
+    padding:20px;
+    text-decoration:none;
+    color:white;
+    display:block;
+    width:100%;
+    height:100%;
+    text-transform:uppercase;
+    border-bottom:10px solid darken(#F24B6A,5);
+    background-color:lighten(#F24B6A,5);
+    border-bottom-color:#F24B6A;
+    }
+
+   li:nth-child(2) a{
+   background-color:#A62E4E;
+   border-bottom-color:darken(#A62E4E,5);
+ }
+
+   li:nth-child(3) a{
+   background-color:#43143E;
+   border-bottom-color:darken(#43143E,5);
+ }
+    li:nth-child(4) a{
+   background-color:#47AABE;
+   border-bottom-color:darken(#47AABE,5);
+    }
+
+/*A Partir de aqui empieza el diseño de toda la pagina, el de arriba es sobre el menu*/
+
+body{
+  font-family: 'Lato', sans-serif;
+  background:#ccc url('http://subtlepatterns.com/patterns/cream_pixels.png');
+  
+}
+
+h1 {
+  text-align:center;
+  font-weight:normal;
+  font-size:4em;
+  color:#EC4512;
+  margin:50px 0;
+}
+
+h4 {
+  text-align:left;
+  font-weight:normal;
+  font-size:2em;
+  color:#EC4512;
+  margin:25px 30px;
+}
+
+h5{
+  text-align:left;
+  font-weight:normal;
+  font-size:2em;
+  color:#F7732D;
+  margin:1px 30px;
+}
+
+#Fondo{
+  width: 70%; 
+  height: 70%; 
+  background-color: #119EC1;
+  border-radius: 10px;
+  border: 5px solid #075468;
+  margin: auto;
+}
+
+p{
+  font-family: cursive;
+  font-size: 20px;
+  text-align: left;
+  margin: 30px, 30px;
+}
+
+div p strong{
+  color: #C9097C;
+
+}
+#Fondo li{
+  font-family: cursive;
+  font-size: 20px;
+  text-align: left;
+  margin: 5px, 30px;
+  
+}
+ul{
+ margin: 5px, 30px;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+ol{
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 5px, 30px;
+}
+
+table{
+
+  border: solid 10px;
+  border-radius: 2px;
+  border-color: #075468;
+
+}
